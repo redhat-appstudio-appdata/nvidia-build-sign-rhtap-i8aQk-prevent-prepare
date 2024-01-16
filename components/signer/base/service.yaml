@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: signer
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: signer
+    app.kubernetes.io/part-of: nvidia-build-sign-rhtap
+  name: signer
+spec:
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app.kubernetes.io/instance: signer
+status:
+  loadBalancer: {}
