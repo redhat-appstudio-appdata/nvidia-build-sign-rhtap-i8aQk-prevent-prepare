@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: signer
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-build-sign-rhtap/signer@sha256:e66fcfdbb7b5145cbaf19a326be42f85751a4088cf051c786609043195b0ddaf
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-build-sign-rhtap/signer@sha256:54a2d2e8e5aa15e683a0e0d19fe4663278a8dd522a0834aaff06fee6fc4a94ac
         imagePullPolicy: Always
         name: container-image
         ports:
