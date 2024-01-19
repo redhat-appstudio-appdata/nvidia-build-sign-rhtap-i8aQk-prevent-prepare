@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-build-sign-rhtap/signer@sha256:54a2d2e8e5aa15e683a0e0d19fe4663278a8dd522a0834aaff06fee6fc4a94ac
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-build-sign-rhtap/signer@sha256:40647d84ffe373fb351d603eaf256efd1e4e0922a9aff32fb38c1e2121053323
         name: container-image
         resources: {}
 status: {}
