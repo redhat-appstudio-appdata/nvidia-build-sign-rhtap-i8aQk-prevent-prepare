@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: signer
     app.kubernetes.io/part-of: nvidia-build-sign-rhtap
-  name: signerebcf
+  name: signerrzug
 spec:
   port:
     targetPort: 8080

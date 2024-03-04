@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: signer
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-build-sign-rhtap/signer@sha256:45bbfe66e45827febea639fe685bc70b5565e6b586d7925a53601b261c87c304
+      - image: quay.io/redhat-user-workloads/ebelarte-tenant/nvidia-build-sign-rhtap/signer@sha256:8e0b5c5af0465a9fbd1f751b42c10df2b05de24d2b7ab6760b8365916e903587
         name: container-image
         resources: {}
 status: {}
